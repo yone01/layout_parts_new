@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.q7__inner {
+.out-box {
   width: 540px;
 }
 
-.q7-box1 {
+.q7-box-float {
   box-sizing: border-box;
   width: 225px;
   float: left;
@@ -28,7 +28,7 @@
   margin: 0 auto;
 }
 
-.q7-box2 {
+.q7-box-table {
   display: table-cell;
   vertical-align: middle;
   box-sizing: border-box;
@@ -77,13 +77,13 @@
   font-size: 0;
 }
 
-.q7-margin-box1 {
+.q7-margin-box-left {
   display: inline-block;
   width: 300px;
   vertical-align: top;
  }
 
-.q7-margin-text1 {
+.q7-margin-text-left {
   display: inline-block;
   font-size: 16px;
 }
@@ -92,7 +92,7 @@
   margin-left: 50px;
 }
 
-.q7-margin-box2 {
+.q7-margin-box-right {
   display: inline-block;
   width: 100%;
   margin-left: -350px;
@@ -101,7 +101,7 @@
   font-size: 0;
 }
 
-.q7-margin-text2 {
+.q7-margin-text-right {
   font-size: 16px;
 }
 

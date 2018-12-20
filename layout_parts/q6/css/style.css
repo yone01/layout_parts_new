@@ -36,18 +36,21 @@
   position: absolute;
 }
 
-.q6__box,.is-stable {
-  position: relative;
+.q6__box+.is-stable {
+  position: absolute;
 }
 
 .q6__box__inner {
-  position: absolute;
-  margin: auto;
+  position: relative;
+  top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
-.q6__box,.is-flexible {
+.q6__box+.is-flexible {
   position: absolute;
-  transform: translate(95px,85px);
+  /*transform: translate(95px,85px);*/
 }
+
  
 /* 回答はここに書いてね */

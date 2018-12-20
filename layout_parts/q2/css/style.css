@@ -13,12 +13,12 @@
   margin: 20px;
 }
 
-.q2_content_picture1 {
+.q2_content_picture_left {
   float: left;
   margin: 0 20px 10px 0;
 }
 
-.q2_content_pisture2 {
+.q2_content_pisture_right {
   float: right;
   margin: 0 0 10px 20px;
 }

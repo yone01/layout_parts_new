@@ -33,7 +33,8 @@ img {
 }
 
 .hidden-text {
-  margin-top: 180px;
+  position: absolute;
+  bottom: 0;
   color: #fff;
   padding: 20px;
 }

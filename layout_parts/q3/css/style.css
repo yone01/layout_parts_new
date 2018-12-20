@@ -17,7 +17,7 @@ table {
 table th{
   padding: 10px;
   background-color: #2244aa;
-  color: white;
+  color: #fff;
   font-size: 18px;
 }
 
@@ -25,21 +25,17 @@ table td{
   padding: 10px;
 }
 
-td:nth-child(1) {
+/*td:nth-child(1) {
   background-color: #2244aa;
   color: #ffffff;
   font-size: 18px;
-}
+}*/
 
-tr:nth-child(3) {
+tr:nth-child(odd) {
   background: #ecf1f2;
 }
 
-tr:nth-child(5) {
-  background: #ecf1f2;
-}
-
-tr:nth-child(6) {
+tr:last-child {
   border-top: dashed #000 2px;
 }
 /* 回答はここに書いてね */
