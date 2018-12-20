@@ -2,4 +2,52 @@
 
 /* 回答はここに書いてね */
 
+.q6_text {
+  text-align: center;
+  width: 70px;
+  padding: 10px;
+  background-color: #e6f2ff;
+  display: block;
+  margin: auto;
+}
+
+.table-text {
+  text-align: center;
+  background-color: #fff;
+  padding: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.q6--around {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-text {
+  background-color: #fff;
+  padding: 10px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.q6__box,.is-stable {
+  position: relative;
+}
+
+.q6__box__inner {
+  position: absolute;
+  margin: auto;
+}
+
+.q6__box,.is-flexible {
+  position: absolute;
+  transform: translate(95px,85px);
+}
+ 
 /* 回答はここに書いてね */

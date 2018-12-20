@@ -1,5 +1,64 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.q9-main {
+  margin: 0 auto;
+  width: 500px;
+  height: 330px;
+  transition-duration: 0.5s;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+}
 
+img {
+  transition-duration: 0.5s;
+}
+
+ .animetion:hover {
+  transform: scale(1.5,1.5);
+ }
+
+.hidden-anime {
+  position: absolute;
+  font-size: 16px;
+  line-height: 16px;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .8));
+  transition: all .5s;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  height: 100%;
+}
+
+.hidden-text {
+  margin-top: 180px;
+  color: #fff;
+  padding: 20px;
+}
+
+.q9-main:hover .hidden-anime {
+  position: absolute;
+  top: 0;
+}
+
+.q9-main:hover img {
+  transform: scale(1.5,1.5);
+}
+
+.q9-anime {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  border: 10px solid #ECF1F2;
+  border-top-color: #00BCD4;
+  border-radius: 50%;
+  animation: loading 1.1s infinite linear;
+}
+
+@keyframes loading {
+  0%  {transform: rotate(0);}
+  100%  {transform: rotate(360deg);}
+}
 /* 回答はここに書いてね */

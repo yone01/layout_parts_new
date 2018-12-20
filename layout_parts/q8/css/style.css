@@ -1,5 +1,249 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.small-common,.small-error,.small-disabled,.small-shadow {
+  display: inline-block;
+  color: #ffffff;
+  border-radius: 3px;
+  font-size: 16px;
+  padding: 0 15px;
+  margin: 0 5px;
+  line-height: 26px;
+  cursor : pointer;
+}
+
+.small-common,.middle-common,.large-common {
+  background-color: #00bcd4;
+}
+
+.small-error,.middle-error,.large-error {
+  background-color: #ff4081;
+}
+
+.small-disabled,.middle-disabled,.large-disabled {
+  background-color: #e5e5e5;
+}
+
+.middle-common,.middle-error,.middle-disabled,.middle-shadow {
+  display: inline-block;
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 0 20px;
+  margin: 0 5px;
+  line-height: 32px;
+  cursor : pointer;
+}
+
+.large-common,.large-error,.large-disabled,.large-shadow {
+  display: inline-block;
+  color: #ffffff;
+  border-radius: 7px;
+  font-size: 24px;
+  padding: 0 25px;
+  margin: 0 5px;
+  line-height: 38px;
+  cursor : pointer;
+}
+
+.small-shadow,.middle-shadow,.large-shadow {
+  color: #222;
+  background-color: #fff;
+  box-shadow: 0 1px 6px rgba(0,0,0,.12), 0 1px 4px rgba(0,0,0,.12);
+}
+
+.q8-form {
+  box-sizing: border-box;
+  height: 370px;
+  width: 740px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ecf1f2;
+  position: relative;
+}
+
+.q8-form-title {
+  position: relative;
+}
+
+.q8-form-title-text {
+  font-weight: bold;
+  font-size: 24px;
+  display: inline-block;
+  position: relative;
+  padding-right: 10px;
+}
+
+.q8-form-title:before {
+  position: absolute;
+  top: 50%;
+  left: 150px;
+  width: 78%;
+  height: 1px;
+  background-color: #ccc;
+  content: "";
+}
+
+.q8-main {
+  width: 300px;
+  float: left;
+}
+
+.q8-title {
+  float: left;
+  text-align: right;
+  display: inline-block;
+  width: 100px;
+  line-height: 26px;
+}
+
+.q8-title span.required {
+  color: #F00;
+}
+
+.q8-content {
+  float: right;
+  width: 180px;
+}
+
+.clearfix {
+  margin-top: 20px;
+}
+
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.q8-input {
+  width: 100%;
+  padding: 5px;
+  border-radius: 3px;
+  border: none;
+  background-color: #fff;
+  line-height: 12px;
+  box-sizing: border-box;
+  font-size: 12px;
+}
+
+.q8-radio {
+  cursor: pointer;
+}
+
+.q8-radio-btn {
+  display: none;
+}
+
+span.q8-radio-celect {
+  position: relative;
+}
+
+.q8-radio-celect {
+  position: relative;
+  display: inline-block;
+  padding: 3px 3px 3px 20px;
+}
+
+span.q8-radio-celect:after {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  margin-top: -8px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  content: '';
+}
+
+.q8-select-content {
+  width: 100%;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #fff;
+  font-size: 12px;
+  line-height: 12px;
+  box-sizing: border-box;
+  cursor: pointer;
+  border: none;
+  -webkit-appearance: none;
+  position: relative;
+}
+
+.q8-select-content:after {
+    display: block;
+    position: absolute;
+    top: 4px;
+    right: 10px;
+    width: 8px;
+    height: 8px;
+    border-right: 2px solid #E5E5E5;
+    border-bottom: 2px solid #E5E5E5;
+    transform: rotate(45deg);
+    content: "";
+    pointer-events: none;
+}
+
+.q8-checkbox {
+  text-align: right;
+}
+
+.q8-checkbox-text {
+  position: relative;
+  display: inline-block;
+  padding-left: 24px;
+}
+
+.q8-checkbox-btn {
+  display: none;
+}
+
+.q8-checkbox-text:before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  margin-top: -9px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  content: '';
+}
+
+.q8-bottom {
+  text-align: right;
+  margin-top: 20px;
+}
+
+button.main-bottom-btn {
+  padding: 0 10px;
+  border-radius: 5px;
+  background-color: #00BCD4;
+  color: #FFF;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.q8-side {
+  float: right;
+  width: 380px;
+  margin-top: 20px;
+}
+
+.q8-side-text {
+  width: 100%;
+  height: 203px;
+  padding: 10px;
+  border-radius: 3px;
+  background-color: #FFF;
+  font-size: 12px;
+  box-sizing: border-box;
+  resize: none;
+  border: none;
+}
+
 
 /* 回答はここに書いてね */
