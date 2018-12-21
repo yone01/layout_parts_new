@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-table.first, th, td {
+table.first th, td {
   border-collapse: collapse;
   border: 1px solid #dedede;
   line-height: 26px;
