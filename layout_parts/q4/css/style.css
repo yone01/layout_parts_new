@@ -1,15 +1,18 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.box-over {
+  padding: 20px;
+}
+
 .box-main {
   display: table;
-  padding: 20px;
   width: 100%;
   box-sizing: border-box;
 }
 
 .box-main:first-child {
-  padding-bottom: 0;
+  padding-bottom: 20px;
 }
 
 .block {

@@ -40,11 +40,10 @@
 
 .second-text {
   background-color: #fff;
-  align-items: center;
   padding: 10px;
 }
 
-.table-box {
+/*.table-box {
   position: relative; 
 }
 
@@ -55,47 +54,48 @@
   position: absolute;
   top: 82px;
   left: 123px;
+}*/
+
+.q6-table {
+  display: table;
+}
+
+.table-box {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.table-text {
+  display: inline-block;
 }
 
 .q6-flex {
-  position: relative;
-  display: flex;
-  justify-content: center;
-}
-
-.flex-text {
-  margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.q6__box+.is-stable {
-  position: absolute;
+.q6__box.is-stable {
+  position: relative;
 }
 
 .q6-fixation {
-  position: relative; 
-  top: 85px;
-  left: 95px;
+  position: absolute; 
+  top: 0;
+  right: 0;
+  bottom:0;
+  left: 0;
+  margin: auto;
 }
-/*.q6__box__inner {
+.q6-variable {
   position: relative;
   top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-}*/
-
-.q6__box+.is-flexible {
-  position: absolute;
-  /*transform: translate(95px,85px);*/
 }
 
-.q6-variable {
-  position: relative;
-  top: 41%;
-  left: 32%;
-}
+
 
  
 /* 回答はここに書いてね */
