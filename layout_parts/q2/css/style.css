@@ -4,13 +4,9 @@
 .q2_content_box {
   margin: 0 auto;
   background-color: #eff3f4;
-  width: 940px;
   overflow: auto;
-}
-
-.q2_content_main {
+  padding: 20px;
   width: 900px;
-  margin: 20px;
 }
 
 .q2_content_picture_left {
